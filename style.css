@@ -1,0 +1,113 @@
+
+body { 
+	background-color: #9DC08B;
+	line-height: 1.4;
+	font-family: Lora;
+	font-size: 16px;
+} 
+
+h1,h2 {
+	font-family: Gloock ;
+	color:#609966;
+}
+
+h1 {
+	font-weight: 900;
+	font-size: 36px;
+	text-justify: center;
+	color: ;
+}
+
+h2 {
+	color:;
+	font-size: 24px;
+	font-weight: 500;
+}
+
+p {
+	text-justify: justify;
+	text-decoration: none;
+	color: #40513B;
+	font-weight: 200;
+}
+
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: 550;
+	font-family: Gloock; 
+	font-size: 16px;
+	transition: color: 0.3s ease;
+
+}
+a:hover {
+	color: #609966 ;
+}
+
+img {
+	width: 150px;
+	border-radius: 50%;
+	border: 2px solid #40513B;
+	box-shadow: 3px 7px 5px #40513B ;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
+
+.H2_cream {
+	background-color: #EDF1D6 ;
+	box-shadow: 0px 10px 30px rgba 0,0,0,0.3 ;
+	padding: 40px;
+	border-radius:10px;
+	margin: 20px 0px;
+	text-align: center;
+	text-justify: justify;
+}
+
+.btn-green {
+	background-color: #40513B;
+	padding: 15px 20px ;
+	border-radius: 10px;
+	margin: 20px 20px
+}
+
+.btn-green:hover {
+	color: #EDF1D6;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 15px;
+}
+
+.list-inline i {
+	font-size: 70px ;
+	color: #40513B ;
+}
+
+.list-inline i:hover {
+	color: #9DC08B;
+}
+
+#intro p {
+	margin-bottom: 30px;
+}
